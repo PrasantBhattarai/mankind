@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(file:///C:/adb/Mankind/pDaruC.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.mankind{
+    background-color:#fff;
+    text-align: right;
+
+}
+.mankind ul{
+    display: inline-flex;
+    list-style-type:none;
+    color:rgb(88, 22, 146);
+}
+.mankind ul li{
+     width: 120px;
+     margin: 15px;
+     padding: 15px;
+
+} 
+.mankind ul li a{
+    text-decoration: none;
+    color: rgb(88, 22, 146);;
+}
+.active, .mankind ul li:hover
+{
+     background:aquamarine;
+     border-radius: 3px;
+}
+.mankind .fa{
+    margin-right: 3px;
+}
